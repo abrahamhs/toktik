@@ -13,8 +13,14 @@ class VideoScrollableView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PageView(
+      scrollDirection: Axis.vertical,
       children: [
         Container(color : Colors.red),
+        Container(color : Colors.orange),
+        Container(color : Colors.teal),
+        Container(color : Colors.yellow),
+        Container(color : Colors.pink),
+        Container(color : Colors.purple),
       ],
     );
   }
