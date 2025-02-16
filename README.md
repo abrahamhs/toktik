@@ -1,6 +1,10 @@
 # TokTik
 
-TokTik es una aplicación Flutter que imita la funcionalidad de una popular plataforma de compartición de videos cortos. Este proyecto demuestra el uso de Flutter para construir una aplicación móvil interactiva y responsiva.
+
+TokTik es una aplicación Flutter que imita la funcionalidad de una popular plataforma de compartición de videos cortos. Este proyecto demuestra el uso de Flutter para construir una aplicación móvil interactiva y responsiva. 
+
+#### TokTik Es parte del curso de Fernando Herrera. -  Flutter Móvil: De cero a Experto.
+
 
 ## Estructura del Proyecto
 
