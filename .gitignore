@@ -11,9 +11,8 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
-*.mp4
-assets/videos/
-/assets/videos/
+# Ignorar archivos .mp4 en assets/videos
+assets/videos/*.mp4
 
 # IntelliJ related
 *.iml
