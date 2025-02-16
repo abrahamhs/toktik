@@ -41,7 +41,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
     return FutureBuilder(
       future: controller.initialize(), 
       builder: (context, snapshot){
-        if (snapshot.connectionState == ConnectionState.done) {
+        if (snapshot.connectionState != ConnectionState.done) {
          return const Center(
           child: CircularProgressIndicator(
             strokeWidth: 2.0,
